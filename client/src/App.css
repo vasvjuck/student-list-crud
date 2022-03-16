@@ -1,0 +1,165 @@
+
+
+.App{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+  width: 900px;
+  margin: 0 auto;
+}
+h1{
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+.inp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form{
+  display: flex;
+  width: 100%;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px #000 solid;
+}
+.form input{
+  width: 300px;
+  height: 15px;
+  font-size: 18px;
+  padding: 15px;
+
+}
+.form button{
+  width: 150px;
+  height: 55px;
+  background-color: #3255c7;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  transition: background-color linear .2s;
+}
+.form button:disabled{
+  background-color: #808080;;   
+ }
+ .form button:disabled:hover{
+  background-color: #808080;;   
+ }
+.form button:hover{
+  cursor: pointer;
+  background-color: #0f246b;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 35px;
+}
+.list__block{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  color: #000;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+span{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student__name{
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.student__group{
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete{
+  width: 80px;
+  height: 35px;
+  background-color: #3255c7;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color linear .2s;
+}
+.delete:hover{
+  background-color: #0f246b;
+}
+.edit{
+  width: 80px;
+  height: 35px;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+  background-color: #ff6f47;
+}
+.edit:hover{
+  background-color: #b64628;
+}
+.error{
+  font-size: 36px;
+  color: #000;
+}
+.editform{
+  position: absolute;
+  top: 117px;
+  width: 100%;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px #000 solid;
+  background-color: #fff;
+  display: none;
+}
+.editform.active{
+  display: block;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.editform input{
+  width: 300px;
+  height: 15px;
+  font-size: 18px;
+  padding: 15px;
+
+}
+.editform button{
+  width: 150px;
+  height: 55px;
+  background-color: #3255c7;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+.editform button:hover{
+  cursor: pointer;
+}
+.editform button:disabled{
+  background-color: #808080;;   
+ }
+ .editform button:disabled:hover{
+  background-color: #808080;;   
+ }
